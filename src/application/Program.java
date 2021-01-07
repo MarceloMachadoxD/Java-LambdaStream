@@ -17,7 +17,7 @@ public class Program {
 
         list.sort((p1, p2) -> p2.getPrice().compareTo(p1.getPrice()));
 
-        list.forEach(p -> System.out.println(p));
+        list.forEach(System.out::println);
 
     }
 }
